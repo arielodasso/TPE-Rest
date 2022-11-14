@@ -14,6 +14,7 @@ Parte 2 del TPE de Web II: API Rest
 
 
 
+
 [GET] TPE-Rest/api/noticias?sort=id&order=asc (devuelve noticias ordenadas por id ascendentemente)
 
 [GET] TPE-Rest/api/noticias?sort=id&order=desc (devuelve noticias ordenadas por id descendentemente)
@@ -40,6 +41,7 @@ Parte 2 del TPE de Web II: API Rest
 
 
 
+
 [GET] TPE-Rest/api/categorias/ (devuelve todas las categorias)
 
 [GET] TPE-Rest/api/categorias/1 (devuelve categoria con ID=1)
@@ -47,6 +49,7 @@ Parte 2 del TPE de Web II: API Rest
 [POST] TPE-Rest/api/categorias/ (crea una nueva categoria)
 
 [DELETE] TPE-Rest/api/categorias/1 (elimina categoria con ID=1)
+
 
 
 
