@@ -1,0 +1,111 @@
+
+// Acá va la parte de NOTICIAS
+
+### GET total de noticias 
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias/
+
+### GET de noticia pasando ID 
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias/20
+
+### GET de noticia ORDER BY id DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=id&order=desc
+### GET de noticia ORDER BY id ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=id&order=asc
+
+
+### GET de noticia ORDER BY fecha ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=fecha&order=asc
+### GET de noticia ORDER BY fecha DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=fecha&order=desc
+
+
+### GET de noticia ORDER BY titulo ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=titulo&order=asc
+### GET de noticia ORDER BY titulo DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=titulo&order=desc
+
+
+### GET de noticia ORDER BY descripcion ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=descripcion&order=asc
+### GET de noticia ORDER BY descripcion DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=descripcion&order=desc
+
+
+### GET de noticia ORDER BY cuerpo ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=cuerpo&order=asc
+### GET de noticia ORDER BY cuerpo DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=cuerpo&order=desc
+
+
+### GET de noticia ORDER BY id_categoria_fk ASC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=categoria&order=asc
+### GET de noticia ORDER BY id_categoria_fk DESC
+GET http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=categoria&order=desc
+
+
+
+### POST de noticia
+POST http://localhost/WEB%20II/TPE-Rest/api/noticias/
+Content-Type: application/json
+
+{
+    "titulo": "tituloPrueba",
+    "descripcion": "descripcionPrueba",
+    "cuerpo": "cuerpoPrueba",
+    "fecha": "2022-11-11",
+    "id_categoria_fk": 3
+}
+
+### DELETE de noticia pasando ID 
+DELETE http://localhost/WEB%20II/TPE-Rest/api/noticias/28
+
+
+
+
+
+
+
+// Acá va la parte de CATEGORIAS
+
+### GET total de categorias 
+GET http://localhost/WEB%20II/TPE-Rest/api/categorias/
+
+### GET de categoria pasando ID 
+GET http://localhost/WEB%20II/TPE-Rest/api/categorias/2
+
+
+### POST de categoria
+POST http://localhost/WEB%20II/TPE-Rest/api/categorias/
+Content-Type: application/json
+
+{
+    "categoria": "categoriaPruebaAPI"
+}
+
+### DELETE de categoria pasando ID
+DELETE http://localhost/WEB%20II/TPE-Rest/api/categorias/30
+
+
+
+
+// Acá va la parte de COMENTARIOS
+
+### GET total de comentarios
+GET http://localhost/WEB%20II/TPE-Rest/api/comentarios/
+
+### GET de comentario pasando ID 
+GET http://localhost/WEB%20II/TPE-Rest/api/comentarios/3 
+
+
+### POST de comentario
+POST http://localhost/WEB%20II/TPE-Rest/api/comentarios/
+Content-Type: application/json
+
+{
+    "comentario": "Este es un comentario desde la Api"
+}
+
+### DELETE de categoria pasando ID
+DELETE http://localhost/WEB%20II/TPE-Rest/api/comentarios/6
+
+
