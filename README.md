@@ -92,7 +92,7 @@ http://localhost/WEB2/TPE2-REST/api/noticias/6
 
 
 
-##### Metodo GET ORDER BY
+##### Metodo GET - ORDER BY
 
 La API permite la obtención de noticias con un determinado orden, según el sort y order pasado por url. 
 
@@ -143,18 +143,23 @@ Ejemplo de método GET que trae registros con sort=id&order=asc.
 La API permite la obtención de noticias ordenados por todas sus columnas de la base de datos pasando las siguientes url, con el método GET:
 
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=fecha&order=asc
+
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=fecha&order=desc
 
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=titulo&order=asc
+
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=titulo&order=desc
 
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=descripcion&order=asc
+
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=descripcion&order=desc
 
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=cuerpo&order=asc
+
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=cuerpo&order=desc
 
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=categoria&order=asc
+
 :point_right: http://localhost/WEB%20II/TPE-Rest/api/noticias?sort=categoria&order=desc
 
 
