@@ -28,7 +28,7 @@ Nota: Si se agrega un id numérico, la consulta devuelve el detalle del recurso 
 ```
 
 ###  CONSUMO DE LA API
-Están disponibles para su utilización en esta API los métodos GET, POST, PUT y DELETE permitiendo realizar la totalidad de las operaciones de ABM en la base de datos. 
+Están disponibles para su utilización en esta API los métodos GET, POST y DELETE permitiendo realizar operaciones en la base de datos. 
 
 ##### Metodo GET
 
