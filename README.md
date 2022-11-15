@@ -4,14 +4,14 @@
 Esta es una API RESTful vinculada a la base de datos del sitio de noticias, detallando todos las noticias disponibles, categorías y comentarios.    
 
 ###  URI
-Accesible mediante la dirección web http://localhost/WEB2/TPE-Rest/api/
+Accesible mediante la dirección web http://localhost/WEB%20II/TPE-Rest/api/
 
 - Debe especificarse de manera obligatoria un recurso en formato:
-http://localhost/WEB2/TPE2-REST/api/recurso 
+http://localhost/WEB%20II/TPE2-REST/api/recurso 
 _(ver detalle de recursos en el punto siguiente)_. 
 
 - Opcionalmente se puede especificar a continuación el id de un recurso en particular con el siguiente formato:
-http://localhost/WEB2/TPE2-REST/api/recurso/id  
+http://localhost/WEB%20II/TPE2-REST/api/recurso/id  
 _(ver detalle de recursos en el punto siguiente)_. 
 
 ###  RECURSOS
