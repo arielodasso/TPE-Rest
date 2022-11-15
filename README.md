@@ -15,7 +15,7 @@ http://localhost/WEB%20II/TPE2-REST/api/recurso/id
 _(ver detalle de recursos en el punto siguiente)_. 
 
 ###  RECURSOS
-Actualmente están disponibles para consulta mediante nuestra API los siguientes recursos:
+Actualmente están disponibles para consulta mediante la API los siguientes recursos:
 
 :point_right: noticias
 
