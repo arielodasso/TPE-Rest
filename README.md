@@ -55,7 +55,7 @@ Ejemplo de una consulta GET sobre el recurso ***categorias*** con id = 2
 }
 ```
 
-Ejemplo de una consulta GET sobre el recurso ***comentarios*** con id = 2
+Ejemplo de una consulta GET sobre el recurso ***comentarios*** con id = 3
 
 ```
 {
