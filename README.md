@@ -55,17 +55,19 @@ Ejemplo de una consulta GET sobre el recurso ***categorias*** con id = 2
 }
 ```
 
+Ejemplo de una consulta GET sobre el recurso ***comentarios*** con id = 2
+
+```
+{
+  "id_comentario": 3,
+  "comentario": "comentario 2 de prueba en la API..."
+}
+```
+
 ##### Metodo POST
 
 Para realizar una inserción de elemento con el método POST, se debe especificar la siguiente información en formato JSON, según el recurso correspondiente:
 
-Ejemplo de método POST sobre el recurso ***categorias***.
-
-```
-{
-    "categoria": "categoriaPruebaAPI"
-}
-```
 
 Ejemplo de método POST sobre el recurso ***noticias***.
 
@@ -79,6 +81,22 @@ Ejemplo de método POST sobre el recurso ***noticias***.
 }
 ```
 
+Ejemplo de método POST sobre el recurso ***categorias***.
+
+```
+{
+    "categoria": "categoriaPruebaAPI"
+}
+```
+
+Ejemplo de método POST sobre el recurso ***comentarios***.
+
+```
+{
+    "comentario": "Este es un comentario desde la Api"
+}
+```
+
 ##### Metodo DELETE
 
 La API permite la eliminación de un recurso, para lo cual se debe conocer el id del recurso a eliminar y especificalo en el endpoint. 
@@ -87,9 +105,22 @@ Ejemplo de método DELETE que elimina el registro id= 6 del recurso ***noticias*
 
 ```
 http://localhost/WEB2/TPE2-REST/api/noticias/6
+
 ```
 
+Ejemplo de método DELETE que elimina el registro id= 6 del recurso ***categorias***.
 
+```
+http://localhost/WEB2/TPE2-REST/api/categorias/6
+
+```
+
+Ejemplo de método DELETE que elimina el registro id= 6 del recurso ***comentarios***.
+
+```
+http://localhost/WEB2/TPE2-REST/api/comentarios/6
+
+```
 
 
 ##### Metodo GET - ORDER BY
